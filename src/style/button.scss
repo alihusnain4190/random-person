@@ -1,0 +1,19 @@
+@import "variable.scss";
+.btn {
+  display: inline-block;
+
+  text-decoration: none;
+  text-align: center;
+  border: none;
+}
+.btn__random {
+  margin-top: 2rem;
+  padding: $padding-add;
+  border-radius: $border-radius;
+  background-color: $primary-color;
+  color: $secondary-color;
+  transition: 2s;
+}
+.btn__random:hover {
+  background-color: #f70712;
+}

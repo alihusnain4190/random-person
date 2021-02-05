@@ -1,0 +1,39 @@
+@media screen and (max-width: 500px) {
+  .App {
+    text-align: center;
+    .person {
+      width: 350px;
+      height: 500px;
+      margin: auto;
+      margin-top: 2%;
+      background-color: white;
+      border-radius: $border-radius;
+      .img {
+        padding: 10px;
+        border: 2px solid $primary-color;
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+        border-radius: 50%;
+      }
+      h4 {
+        color: #333;
+      }
+      .icons {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+        .icon {
+          margin-top: 10px;
+          width: 100px;
+        }
+        .icon:hover {
+          color: $primary-color;
+          -webkit-transform: rotateX(360deg);
+          transform: rotateX(360deg);
+        }
+      }
+    }
+  }
+}
